@@ -1,0 +1,104 @@
+body{
+    background:rgb(255,190,193);
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    height: 100vh;
+    width:100vw;
+  }
+  
+  #wrapper{
+    border-radius:5px;
+    padding: 20px 25px 10px 25px;
+    background:white;
+    width: 400px;
+    height: 220px;
+  }
+  
+  header{
+    font-size:25px;
+    text-align:center;
+  }
+  
+  #quote-box{
+    display:flex;
+    justify-content:center;
+    font-size:16px;
+    font-style:italic;
+    flex-direction: column;
+    height:180px;
+  }
+  
+  #author{
+    text-align:right;
+    font-size:13px;
+    padding-bottom:10px;
+  }
+  
+  .links{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  /*TWITTER*/
+  #tweet-quote{
+    display:flex;
+    align-items:center;
+    background:rgb(255,190,193);
+    margin-right:-190px;
+    padding: 10px 10px 10px 9px;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    cursor:pointer;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+  }
+  
+  #tweet-quote:hover{
+    background:#ffe4e1;
+  }
+  
+  /*TUMBLR*/
+  #tumblr-quote{
+    display:flex;
+    align-items:center;
+    background:rgb(255,190,193);
+    padding: 10px 9px 10px 11px;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    cursor:pointer;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+  }
+  
+  #tumblr-quote:hover{
+    background:#ffe4e1;
+  }
+  
+  /*NEW QUOTE*/
+  #new-quote{
+    color:white;
+    background:rgb(255,190,193);
+    border:none;
+    margin: 5px 13px 5px 13px;
+    border-radius:3px;
+    cursor:progress;
+  }
+  #new-quote:hover{
+    background:#ffe4e1;
+  }
+  #new-quote:active {
+    background-color: #dcdcdc;
+    box-shadow: 0 2px rgb(255,190,193);
+    transform: translateY(4px);
+  }
+  
+  #text{
+    margin: auto;
+  }
+  
+  
